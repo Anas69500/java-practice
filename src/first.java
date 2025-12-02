@@ -1,8 +1,5 @@
 public class first {
     public static void main (String[] args) {
-        // System.out.println("Hello World");
-        // // output
-        // System.out.print("h\t*");
         int a = 20;
         int b = 10;
         int sum = (a * b) / (a - b);
