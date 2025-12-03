@@ -1,22 +1,20 @@
 package OOPS.Inheritance;
 
-//Parent Class or Super class
 class Animal {
     void Sound() {
         System.out.println("The Animal Sound!");
     }
 }
 
-class Puppy extends Animal{ //Child class or Sub class
+class Puppy extends Animal {
     void Bark() {
         System.out.println("The Puppy is Barking!");
-    } 
+    }
 }
 
 public class Single {
     public static void main(String[] args) {
-
-        Puppy p = new Puppy(); //create an object
+        Puppy p = new Puppy();
         p.Sound();
         p.Bark();
     }
