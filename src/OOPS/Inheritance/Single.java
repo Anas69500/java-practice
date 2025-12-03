@@ -7,7 +7,7 @@ class Animal {
     }
 }
 
-class Puppy extends Animal{ //Child class or sub class
+class Puppy extends Animal{ //Child class or Sub class
     void Bark() {
         System.out.println("The Puppy is Barking!");
     } 
