@@ -24,11 +24,9 @@ class Students implements Comparable<Students> {
 
 
     public int compareTo(Students that) {
-        if(this.id > that.id)
-            return 1;
-        else
-            return -1;
+        return that.id - this.id;
     }
+
 }
 
 public class ComparablePractice {
